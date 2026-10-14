@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Castoro+Titling&family=Chelsea+Market&family=Edu+QLD+Hand:wght@400..700&family=Fredoka:wght@300..700&family=Medula+One&family=Merienda:wght@300..900&family=Share+Tech&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(135deg, #3505b8, #e7c323);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Chelsea Market", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 650px;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 35px 25px;
+    border-radius: 25px;
+
+}
+
+h1{
+    color: #463c9e;
+    font-size: 30px;
+}
+
+label{
+    display: block;
+    margin: 20px;
+    font-weight: bolder;
+    color: rgb(48, 47, 47);
+    margin-bottom: 10px;
+
+}
+
+input {
+    width: 100;
+    padding: 12px 15px;
+    background-color: #ddd4cb;
+    border: 2px solid #2c4bf7;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: "Chelsea Market", system-ui;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+input:focus {
+    border-color: #f1bb27;
+    background-color: #ffffff;
+    box-shadow: 0 0 8px rgba(164, 79, 207, 0.4);
+}
+
+input::placeholder {
+    color: #8c7b91;
+}
+
+button{
+    border: 2px solid rgb(89, 40, 107);
+    box-shadow: 0 0 0 3px rgb(145, 174, 218);
+    border-radius: 5px;
+    background-color: rgb(186, 200, 224);
+    color: rgb(33, 64, 241);
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: "Share Tech", sans-serif;
+
+}
+ button:hover{
+
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+ }
+
+ button:active{
+    transform: scale(0.9);
+ }
+
+ #resultado{
+    margin-top: 10px;
+    padding-top: 20px;
+    border-top: 2px solid #fff;
+    animation: aparecer 0,5s ease;  
+ }
+
+ #resultado h2{
+    padding: 10px;
+ }
+
+ #resultado h3{
+    color: #ffab57;
+    font-size: 24px;
+    font-family: "Share Tech", sans-serif;
+
+ }
+
+ textarea{
+    width: 100%;
+    padding: 30px;
+    font-size: 16px;
+    border-radius: 25px;
+    transition: 0.3s;
+    margin-top: 15px;
+ }
+
+#nome {
+    width: 100%;
+    max-width: 280px;
+    padding: 12px 15px;
+
+    background-color: #fff3e5;
+    border: 2px solid #1c43ee;
+    border-radius: 12px;
+
+    font-family: "Chelsea Market", system-ui;
+    font-size: 16px;
+
+    outline: none;
+    transition: 0.3s;
+}
+
+#nome:focus {
+    border-color: #ffa43d;
+    box-shadow: 0 0 8px rgba(164, 79, 207, 0.4);
+}
